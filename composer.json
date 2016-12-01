@@ -1,0 +1,27 @@
+{
+  "name": "overals/yii2-geoip2",
+  "description": "Yii2 GeoIP2 extension. Returns country, city, latitude, longitude, time zone, iso code, continent, subdivisions by IP (uses MaxMind's GeoIP2 databases)",
+  "keywords": ["geoip2", "geodata", "maxmind", "yii2"],
+  "type": "yii2-extension",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evgeny Gorchak",
+      "email": "evgenygor89@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "maxmind-db/reader": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "overals\\GeoIP2\\": ""
+    }
+  }
+}
