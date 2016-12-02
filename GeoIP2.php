@@ -1,9 +1,4 @@
 <?php
-/**
- * @author Evgeny Gorchak <evgenygor89@gmail.com>
- * @version 1.0.0
- *
- */
 namespace overals\GeoIP2;
 
 use MaxMind\Db\Reader;
