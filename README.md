@@ -49,7 +49,7 @@ $config = [
         'geoip2' => [
             'class' => 'overals\GeoIP2\GeoIP2',
             'mmdb' => '@app/components/GeoIP2/GeoLite2-City.mmdb',
-            'lng' => 'en',
+            'lng' => 'en', // available languages = 'de', 'en', 'es', 'ja', 'ru', 'zh-CN'
         ],
     ]
     ...
@@ -61,7 +61,7 @@ somewhere in code:
 ```php
 $ip = Yii::$app->component->geoip2->getInfoByIP(); // current user ip
 
-$ip = Yii::$app->component->geoip->getInfoByIP("8.8.8.8");
+$ip = Yii::$app->component->geoip2->getInfoByIP("8.8.8.8");
 
 $ip->continent; // "North America"
 $ip->country; // "United States"
