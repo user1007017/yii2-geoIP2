@@ -25,7 +25,7 @@ Add to your `composer.json`
 ```json
 {
     "require": {
-        "overals/yii2-geoip2": "~1.0"
+        "overals/yii2-geoip2": "~1.0.1"
     }
 }
 ```
