@@ -12,7 +12,7 @@ Currently available:
 * Continent
 * Subdivisions
 
-## Install
+## Installation
 
 ```bash
 $ php composer.phar require overals/yii2-geoip2 "~1.0"
@@ -20,7 +20,7 @@ $ php composer.phar require overals/yii2-geoip2 "~1.0"
 
 #### OR
 
-add to your `composer.json`
+Add to your `composer.json`
 
 ```json
 {
@@ -38,7 +38,7 @@ $ composer update
 
 ## Usage
 
-### Like component
+Update your config file - config/web.php
 
 ```php
 <?php
@@ -60,7 +60,6 @@ somewhere in code:
 
 ```php
 $ip = Yii::$app->component->geoip2->getInfoByIP(); // current user ip
-
 $ip = Yii::$app->component->geoip2->getInfoByIP("8.8.8.8");
 
 $ip->continent; // "North America"
