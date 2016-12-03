@@ -3,7 +3,7 @@
   "description": "Yii2 GeoIP2 extension. Returns country, city, latitude, longitude, time zone, iso code, continent, subdivisions by IP (uses MaxMind's GeoIP2 databases)",
   "keywords": ["geoip2", "geodata", "maxmind", "yii2"],
   "type": "yii2-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {

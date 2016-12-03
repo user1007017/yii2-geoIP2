@@ -15,7 +15,7 @@ Currently available:
 ## Installation
 
 ```bash
-$ php composer.phar require overals/yii2-geoip2 "~1.0"
+$ php composer.phar require overals/yii2-geoip2 "~1.0.1"
 ```
 
 #### OR
