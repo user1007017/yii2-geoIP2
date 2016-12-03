@@ -83,8 +83,12 @@ class Result {
     protected function getSubdivisions() {
         $value = null;
 
-        if (isset($this->data['subdivisions']['names'][$this->lng])) {
-            $value = $this->data['subdivisions']['names'][$this->lng];
+        if(isset($this->data['subdivisions']) && is_array($this->data['subdivisions'])) {
+            $arr = [];
+            foreach($this->data['subdivisions'] as $subdivision){
+                $arr[] = $subdivision['names'][$this->lng];
+            }
+            $value = implode(', ', $arr);
         }
 
         return $value;
