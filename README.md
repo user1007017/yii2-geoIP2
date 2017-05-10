@@ -1,6 +1,25 @@
 Yii2 GeoIP2 extension
 =====================
 
+
+
+Subdivisions lng error in Result.php.
+
+See commented code.
+    
+    PHP Notice 'yii\base\ErrorException' with message 'Undefined index: de'
+    
+    in /vendor/overals/yii2-geoip2/Result.php:89
+    
+    Stack trace:
+    #0 /commands/ConsoleController.php(71): overals\GeoIP2\Result->__get()
+    #1 /vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\ConsoleController->actionIndex()
+
+
+
+
+-----------------------
+
 Provides information about geographical location of user by IP address.
 
 Currently available:
@@ -11,6 +30,8 @@ Currently available:
 * ISO Code
 * Continent
 * Subdivisions
+
+
 
 ## Installation
 
