@@ -85,9 +85,10 @@ class Result {
 
         if(isset($this->data['subdivisions']) && is_array($this->data['subdivisions'])) {
             $arr = [];
-            foreach($this->data['subdivisions'] as $subdivision){
-                $arr[] = $subdivision['names'][$this->lng];
-            }
+            if(isset($this->data['subdivisions'])){}
+//            foreach($this->data['subdivisions'] as $subdivision){
+//                $arr[] = $subdivision['names'][$this->lng];
+//            }
             $value = implode(', ', $arr);
         }
 
