@@ -1,5 +1,5 @@
 {
-  "name": "overals/yii2-geoip2",
+  "name": "user1007017/yii2-geoip2",
   "description": "Yii2 GeoIP2 extension. Returns country, city, latitude, longitude, time zone, iso code, continent, subdivisions by IP (uses MaxMind's GeoIP2 databases)",
   "keywords": ["geoip2", "geodata", "maxmind", "yii2"],
   "type": "yii2-extension",
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "overals\\GeoIP2\\": ""
+      "user1007017\\GeoIP2\\": ""
     }
   }
 }

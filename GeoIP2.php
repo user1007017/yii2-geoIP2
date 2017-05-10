@@ -1,5 +1,5 @@
 <?php
-namespace overals\GeoIP2;
+namespace user1007017\GeoIP2;
 
 use MaxMind\Db\Reader;
 use Yii;

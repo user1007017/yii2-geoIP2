@@ -9,10 +9,10 @@ See commented code.
     
     PHP Notice 'yii\base\ErrorException' with message 'Undefined index: de'
     
-    in /vendor/overals/yii2-geoip2/Result.php:89
+    in /vendor/user1007017/yii2-geoip2/Result.php:89
     
     Stack trace:
-    #0 /commands/ConsoleController.php(71): overals\GeoIP2\Result->__get()
+    #0 /commands/ConsoleController.php(71): user1007017\GeoIP2\Result->__get()
     #1 /vendor/yiisoft/yii2/base/InlineAction.php(57): app\commands\ConsoleController->actionIndex()
 
 
@@ -36,7 +36,7 @@ Currently available:
 ## Installation
 
 ```bash
-$ php composer.phar require overals/yii2-geoip2 "~1.0.1"
+$ php composer.phar require user1007017/yii2-geoip2 "~1.0.1"
 ```
 
 #### OR
@@ -46,7 +46,7 @@ Add to your `composer.json`
 ```json
 {
     "require": {
-        "overals/yii2-geoip2": "~1.0.1"
+        "user1007017/yii2-geoip2": "~1.0.1"
     }
 }
 ```
@@ -68,7 +68,7 @@ $config = [
     ...
     'components' => [
         'geoip2' => [
-            'class' => 'overals\GeoIP2\GeoIP2',
+            'class' => 'user1007017\GeoIP2\GeoIP2',
             'mmdb' => '@app/components/GeoIP2/GeoLite2-City.mmdb',
             'lng' => 'en', // available languages = 'de', 'en', 'es', 'ja', 'ru', 'zh-CN'
         ],
